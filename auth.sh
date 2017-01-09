@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$1" -ne "$2" ]; then
+if [ "$1" -ne "{{ auth_name }}" ]; then
 	exit 0
 fi
 
